@@ -2,8 +2,8 @@ package abstract_classes.cities;
 
 public class SanDiego extends City {
 
-	public SanDiego() {
-		super(1000, 0.5);
+	public SanDiego(int population, double growthRate) {
+		super(population, growthRate);
 		
 		// TODO Auto-generated constructor stub
 	}
